@@ -16,7 +16,7 @@ void drawFilledSphere(GLfloat x, GLfloat y, GLfloat z, GLfloat radius)
    int j, i;
    // GLfloat radius = 0.8f; //radius
    GLfloat twicePi = 2.0f * M_PI;
-   glBegin(GL_LINE_STRIP);
+   glBegin(GL_POLYGON);
    for (j = 0; j <= triangleAmount; j++)
    {
       for (i = 0; i <= triangleAmount; i++)
